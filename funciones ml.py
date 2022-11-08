@@ -43,17 +43,6 @@ def display_df(scores, model):
     return(df)
 
 
-Pasos: 
-    1 tranformar categoricas y numericas.
-    2 split de data.
-     3 defino modelo, definos parametros grid.
-
-     realizo predicciones con funcion fit_predict ( X_train,X_test, modelo, parameters_grid)
-
-     y_pred, grid_search = fit_predict
-
-      obtengo scores.
-
 
 xgbclassi = XGBClassifier()
 
